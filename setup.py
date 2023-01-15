@@ -31,7 +31,7 @@ setup(
     keywords="orange pi opi gpio",
     url="https://github.com/rm-hull/OPi.GPIO",
     download_url="https://github.com/rm-hull/OPi.GPIO/tarball/" + version,
-    packages=["OPi", "nanopi", "orangepi", "rockpi"],
+    packages=["OPi", "nanopi", "orangepi", "rockpi", "radxa"],
     setup_requires=pytest_runner,
     tests_require=test_deps,
     extras_require={
@@ -54,6 +54,11 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6"
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11"
     ]
 )
